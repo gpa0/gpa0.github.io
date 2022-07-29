@@ -11,7 +11,7 @@ let dy = 2;
 function drawBall() {
   ctx.beginPath();
   ctx.arc(x, y, ballRadius, 0, 2 * Math.PI);
-  ctx.fillStyle = "#FF6CC0C";
+  ctx.fillStyle = "#FF6C0C";
   ctx.fill();
   ctx.closePath();
 }
