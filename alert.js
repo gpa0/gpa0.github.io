@@ -1,9 +1,5 @@
 "use strict";
 
-let admin, name;
+let name = prompt("What is your name?");
 
-name = "Gabriel";
-admin = name;
-
-alert("Hello, world!");
-alert(admin);
+alert(`Hello, ${name}`);
