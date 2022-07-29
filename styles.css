@@ -1,1 +1,4 @@
-canvas {background: #eee;}
+#myCanvas {
+  background-color: #000000;
+  outline: #FFFFFF 4px solid;
+}
