@@ -1,1 +1,1 @@
-# gpa0.github.io
+A website for learning and personal projects.
