@@ -1,19 +1,28 @@
 main {
-  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   font-family: Verdana, sans-serif;
+  height: 100vh;
   font-size: 24pt;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin: 0px;
+  flex-grow: 1;
   background-color: #606060;
-  height: 100vh;
 }
 
 p {
   color: white;
   font-weight: bold;
   text-align: center;
+}
+
+footer {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #404040;
 }
